@@ -26,7 +26,7 @@ include MAIN_DIR.'/application/config/database.php';
 
 $route = isset($_GET['r']) ? $_GET['r'] : 'tasks/index';
 
-$routes = \application\components\Rotes::getInstance();
+$routes = \application\components\Routes::getInstance();
 $result = $routes->setRoute($route);
 
 if($result === false) {

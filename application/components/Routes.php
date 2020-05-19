@@ -7,7 +7,7 @@
  */
 namespace application\components;
 
-class Rotes
+class Routes
 {
     protected static $_instance;
 
